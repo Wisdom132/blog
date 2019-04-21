@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+
+}
+body {
+ font-family: 'Montserrat', sans-serif;
+
+}
+.container {
+  width: 70%;
+}
+@media (max-width: 800px) {
+  .container {
+    width: 100% !important;
+  }
+}
+#home_body {
+  background: #222222;
+}
+.nav-link {
+  color: black !important;
+}
+    .home_nav {
+        color: white !important;
+    }
+
+/* projectrs page */
+.project_header {
+  font-size: 25px;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+.project_para {
+  font-size: 18px;
+  color: #5a5a5a;
+}
+
+/* talks page */
+ul li {
+  color: white;
+  list-style-type: none;
+  /* font-size: 26px; */
+}
+.first {
+  font-size: 22px;
+}
+.others {
+  font-size: 20px;
+}
+.postBody {
+  text-align: justify;
+  line-height: 35px;
+  color: #4c4c4c;
+ font-family: 'Montserrat', sans-serif;
+
+}
+
+/* home page */
+.home {
+  margin-top: 130px;
+}
+.hey {
+  font-size: 30px;
+}
+.name {
+  font-size: 40px;
+}
+.text {
+  font-size: 16px;
+  text-align: left;
+}
+.over {
+  margin-top: 30px;
+}
+.icon {
+    border:1px solid #ffffff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top:6px !important;
+}
+@media(max-width:750px) {
+    .home {
+  margin-top: 30px;
+}
+}
